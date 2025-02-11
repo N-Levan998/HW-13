@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(252, 233, 229);
-  margin: 0 auto;
+  margin: 25px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +10,7 @@ body {
   font-family: "Inter", serif;
 }
 .image {
-  height: 200px;
-  width: 480px;
+  width: 100%;
   border-radius: 15px;
 }
 .card {
@@ -58,16 +57,13 @@ li {
 .facts {
   color: brown;
 }
-@media screen and (max-width: 522px) {
+@media screen and (max-width: 530px) {
   .card {
     border-radius: 0px;
-    padding: 19px 25px;
-    width: 470px;
+    padding: 10px;
+    width: 100%;
   }
   body {
     margin: 0 auto;
-  }
-  .image {
-    width: 440px;
   }
 }
