@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  background-color: rgb(252, 233, 229);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Inter", serif;
+}
+.image {
+  height: 200px;
+  width: 480px;
+  border-radius: 15px;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 500px;
+  min-height: 1200px;
+  padding: 30px;
+  text-align: left;
+}
+.title {
+  margin-top: 20px;
+  color: #000000;
+  font-size: 40px;
+}
+.time {
+  background-color: rgb(250, 236, 224);
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+li::marker {
+  color: firebrick;
+}
+h2 {
+  color: brown;
+  font-size: 30px;
+}
+h3 {
+  color: rgb(151, 26, 151);
+  font-size: 20px;
+}
+li {
+  margin-top: 10px;
+}
+.table {
+  border-color: #ffffff;
+  width: 100%;
+  border-spacing: 0px;
+  display: table;
+  border-collapse: collapse;
+}
+.facts {
+  color: brown;
+}
+@media screen and (max-width: 522px) {
+  .card {
+    border-radius: 0px;
+    padding: 19px 25px;
+    width: 470px;
+  }
+  body {
+    margin: 0 auto;
+  }
+  .image {
+    width: 440px;
+  }
+}
