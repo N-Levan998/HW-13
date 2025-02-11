@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(252, 233, 229);
   margin: 25px auto;
@@ -54,6 +58,13 @@ li {
   display: table;
   border-collapse: collapse;
 }
+
+.table td {
+  border-bottom: 1px solid black;
+  width: 50%;
+  padding: 10px 0;
+}
+
 .facts {
   color: brown;
 }
